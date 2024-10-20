@@ -1,0 +1,31 @@
+//=============================================================================
+// comment-sample.js v1.0.0
+//=============================================================================
+ 
+//=============================================================================
+ 
+/**
+ * The Superclass of all scenes within the game.
+ * 
+ * @class Scene_Base
+ * @constructor 
+ * @extends Stage
+ */
+
+// インラインコメント　（行の後ろに書くのは読みにくいので避ける）
+//checks to see if there's a comment. If so, returns a thank you message.
+
+function sourceCodeComment () {
+  var comment = document.getElementbyID("Code Comment").value; 
+  if (comment != null && comment != '') { 
+        return console.log("Thank you for your comment.")
+}
+
+// 警告コメント
+// Don't bother trying to use goodCodeComment() here. 
+// It breaks bestPractices() despite seeming like the best option.
+// We went with simplyOkayCodeComment() instead.
+ 
+function simpleOkayCodeComment() {
+    //some kind of code goes here
+}
